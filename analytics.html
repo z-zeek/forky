@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fingrid Interaction Hub - Analytics</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+
+</head>
+<body>
+  <header>
+    <img src="/images/nagylogo.png" alt="Fingrid Logo" id="logo-image">
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active"><i class="fas fa-home"></i> Dashboard</a></li>
+        <li><a href="notifications.html"><i class="fas fa-bell"></i> Notifications</a></li>
+        <li><a href="feedback.html"><i class="fas fa-comment-dots"></i> Feedback</a></li>
+        <li><a href="analytics.html"><i class="fas fa-chart-bar"></i> Analytics</a></li>
+        <li><a href="feature-requests.html"><i class="fas fa-lightbulb"></i> Feature Requests</a></li>
+        <li><a href="faq.html" class="active"><i class="fas fa-question-circle"></i> FAQ</a></li>
+        <li><a href="profile.html"><i class="fas fa-user"></i> Profile</a></li>
+        <li><a href="index2.html"><i class="fas fa-info-circle"></i> Service Status</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Analytics</h1>
+    <p>Explore data insights for Fingrid Interaction Hub.</p>
+
+    <section id="filters">
+      <h2>Filter Analytics</h2>
+      <label for="start-date">Start Date:</label>
+      <input type="date" id="start-date">
+      <label for="end-date">End Date:</label>
+      <input type="date" id="end-date">
+      <button id="filter-data">Filter</button>
+    </section>
+
+    <section id="charts">
+      <h2>Feature Engagement</h2>
+      <canvas id="featureEngagementChart" width="400" height="200"></canvas>
+
+      <h2>Feedback Trends</h2>
+      <canvas id="feedbackTrendsChart" width="400" height="200"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Fingrid Interaction Hub. All Rights Reserved.</p>
+  </footer>
+
+  <script src="/analytics.js"></script>
+</body>
+</html>

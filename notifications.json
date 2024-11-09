@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Feature #101 Updated",
+    "details": "Status changed to 'Implemented'.",
+    "timestamp": "2024-11-09 10:00",
+    "isRead": false
+  },
+  {
+    "id": 2,
+    "title": "New Comment on Feature #102",
+    "details": "A user commented on Feature #102.",
+    "timestamp": "2024-11-09 09:30",
+    "isRead": true
+  },
+  {
+    "id": 3,
+    "title": "Feature #103 Priority Changed",
+    "details": "Marked as High Priority.",
+    "timestamp": "2024-11-09 08:45",
+    "isRead": false
+  }
+]
